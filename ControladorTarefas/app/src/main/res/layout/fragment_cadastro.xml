@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSurface"
+    android:padding="@dimen/spacing_md">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:padding="@dimen/spacing_md">
+
+        <EditText
+            android:id="@+id/etDescricao"
+            android:hint="Descrição da tarefa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorTextSecondary"/>
+
+        <EditText
+            android:id="@+id/etResponsavel"
+            android:hint="Responsável"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:textColorHint="@color/colorTextSecondary"/>
+
+        <TextView
+            android:id="@+id/tvPorcent"
+            android:text="0%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:textAppearance="@style/TextAppearance.ControladorTarefas.Title" />
+
+        <SeekBar
+            android:id="@+id/seekPorcentagem"
+            android:max="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:progressTint="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:text="Salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_lg"/>
+
+    </LinearLayout>
+</ScrollView>

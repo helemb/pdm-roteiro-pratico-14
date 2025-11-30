@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Feminine palette -->
+    <color name="colorPrimary">#F48FB1</color>
+    <color name="colorPrimaryVariant">#F06292</color>
+    <color name="colorSecondary">#CE93D8</color>
+    <color name="colorAccent">#FFB6C1</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSurface">#FFF5F8</color>
+    <color name="colorCard">#FFFFFF</color>
+    <color name="colorDivider">#FFE0EB</color>
+    <color name="colorTextPrimary">#1F0920</color>
+    <color name="colorTextSecondary">#241124</color>
+</resources>
